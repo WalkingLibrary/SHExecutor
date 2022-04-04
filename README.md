@@ -10,7 +10,7 @@
 
 # Java Version
 
-````
+````bash
 admin@MyLinuxPC:~/Java$ java -version
 openjdk version "1.8.0_322"
 OpenJDK Runtime Environment (build 1.8.0_322-8u322-b06-1~deb9u1-b06)
@@ -19,8 +19,8 @@ OpenJDK 64-Bit Server VM (build 25.322-b06, mixed mode)
 
 # How to Build
 
-````
-admin@MyLinuxPC:~/Java$ sudo git clone https://github.com/WalkingLibrary/SHExecutor --tags
+````bash
+<>admin@MyLinuxPC:~/Java$ sudo git clone https://github.com/WalkingLibrary/SHExecutor --tags
 Cloning into 'SHExecutor'...
 remote: Enumerating objects: 33, done.
 remote: Counting objects: 100% (33/33), done.
@@ -45,7 +45,7 @@ BUILD SUCCESSFUL in 3s
 
 # How to Use
 
-````
+````bash
 admin@MyLinuxPC:~/Java/SHExecutor$ cd ./build/libs/
 admin@MyLinuxPC:~/Java/SHExecutor/build/libs$ sudo java -jar SH-Executor-0.0.2-all.jar "/home/admin/Scripts/helloWorld.sh"
 09:29:13.161 [main] DEBUG ConsoleLogger - Executing Command:
