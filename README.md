@@ -20,7 +20,7 @@ OpenJDK 64-Bit Server VM (build 25.322-b06, mixed mode)
 # How to Build
 
 ````bash
-<>admin@MyLinuxPC:~/Java$ sudo git clone https://github.com/WalkingLibrary/SHExecutor --tags
+admin@MyLinuxPC:~/Java$ sudo git clone https://github.com/WalkingLibrary/SHExecutor --tags
 Cloning into 'SHExecutor'...
 remote: Enumerating objects: 33, done.
 remote: Counting objects: 100% (33/33), done.
